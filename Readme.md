@@ -1,7 +1,7 @@
 # python
 
 ## 一、建立虛擬環境
-`python -m venv .venv`
+    python -m venv .venv
 
 `.venv\Scripts\activate`
 
