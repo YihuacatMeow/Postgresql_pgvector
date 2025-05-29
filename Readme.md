@@ -15,7 +15,7 @@
 # postgresql+pgvector
 
 ## 一、安裝
-電腦安裝postgresql、pgadmin、docker、SQL shell
+電腦安裝postgresql、pgadmin、docker、SQL shell[安裝設定](https://jimmyswebnote.com/postgresql-tutorial/)
 
 postgresql連線設定
 
@@ -23,12 +23,14 @@ postgresql連線設定
 SQL shell輸入登入內容(先前安裝時設定的)，記得不要關閉視窗
 開啟專案，創建docker-compose.yml檔案，設定port
 
-範例:
+範例:</br>
         ports:
         - '5433:5432'(改前面的port)  
 
 
 ## 三、透過docker安裝pgvector
+[參考網站](https://ithelp.ithome.com.tw/articles/10328071)
+
 在終端機輸入:
 
     docker pull pgvector/pgvector:pg17 
